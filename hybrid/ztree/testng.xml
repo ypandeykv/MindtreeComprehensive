@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.extentReport.Extentreport"/>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="tacademy.EnterPincodeGift"/>
+      <class name="tacademy.AddcartTest"/>
+      <class name="tacademy.SignUpTest"/>
+      <class name="tacademy.Test10"/>
+      <class name="tacademy.GetTitle"/>
+      <class name="tacademy.Findorder"/>
+      <class name="tacademy.VerifyFootertext"/>
+      <class name="tacademy.LoginTest"/>
+      <class name="tacademy.Mug3dSelector"/>
+      <class name="tacademy.SearchingBox"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

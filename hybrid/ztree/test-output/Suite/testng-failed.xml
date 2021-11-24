@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tacademy.GetTitle">
+        <methods>
+          <include name="closedriver"/>
+          <include name="title"/>
+        </methods>
+      </class> <!-- tacademy.GetTitle -->
+      <class name="tacademy.Test10">
+        <methods>
+          <include name="lastTest"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.Test10 -->
+      <class name="tacademy.Findorder">
+        <methods>
+          <include name="findorder"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.Findorder -->
+      <class name="tacademy.AddcartTest">
+        <methods>
+          <include name="cart"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.AddcartTest -->
+      <class name="tacademy.EnterPincodeGift">
+        <methods>
+          <include name="pinCode"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.EnterPincodeGift -->
+      <class name="tacademy.SignUpTest">
+        <methods>
+          <include name="signin"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.SignUpTest -->
+      <class name="tacademy.LoginTest">
+        <methods>
+          <include name="Login"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.LoginTest -->
+      <class name="tacademy.VerifyFootertext">
+        <methods>
+          <include name="closedriver"/>
+          <include name="footer"/>
+        </methods>
+      </class> <!-- tacademy.VerifyFootertext -->
+      <class name="tacademy.Mug3dSelector">
+        <methods>
+          <include name="closedriver"/>
+          <include name="mug3d"/>
+        </methods>
+      </class> <!-- tacademy.Mug3dSelector -->
+      <class name="tacademy.SearchingBox">
+        <methods>
+          <include name="search"/>
+          <include name="closedriver"/>
+        </methods>
+      </class> <!-- tacademy.SearchingBox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
